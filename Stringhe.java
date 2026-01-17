@@ -1,4 +1,12 @@
-strA=x;
+public class Stringhe
+{
+    private String strA;
+    private String strB;
+    private String strC;
+    public Stringhe{
+    {
+
+        strA=x;
         strB=y;
         strC=z;
     }
@@ -34,5 +42,3 @@ public String toString()
 }
     
 }
-
-
