@@ -3,7 +3,7 @@ public class Stringhe
     private String strA;
     private String strB;
     private String strC;
-    public Stringhe{
+    public Stringhe(String x, String y, String z)
     {
 
         strA=x;
@@ -17,7 +17,7 @@ public class Stringhe
     public String getstrC(){return strC;}
     public void setstrC(String x){ strC=x;}
     public void OrdinaStringhe()
-    {
+    {  
         if (strA.compareToIgnoreCase(strB)<0)
             if (strA.compareToIgnoreCase(strC)<0)
                 if (strB.compareToIgnoreCase(strC)<0)
@@ -42,3 +42,5 @@ public String toString()
 }
     
 }
+
+
