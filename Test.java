@@ -8,8 +8,7 @@ class Test
         String c="Ciao Giovanni 1 2 3 !";
         Stringhe st=new Stringhe (a,b,c);
         st.OrdinaStringhe();
-        
-     /  System.out.println("***********************************************");
+         System.out.println("***********************************************");
         System.out.println("Richiesta inserimento dati:");
         System.out.println("***********************************************");
         Scanner sc = new Scanner(System.in);
